@@ -201,7 +201,7 @@ export default function AboutTeam() {
             <Star className="h-8 w-8 text-yellow-300 ml-2" />
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-indigo-200">
-            Meet the team behind CosmoPredict. 
+            Meet the team behind ConstellaScan. 
           </p>
         </div>
         
