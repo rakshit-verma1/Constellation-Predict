@@ -68,7 +68,15 @@ const ConstellationSVG = () => (
 const ConstellationCard = ({ constellation }) => (
   <div className="bg-indigo-900 bg-opacity-80 rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-indigo-400 hover:scale-105">
     <div className="h-48 relative">
-
+      <img 
+        src={constellation.image} 
+        alt={constellation.name} 
+        className="h-full w-full object-cover" 
+        onError={(e) => {
+          e.target.onerror = null;
+          e.target.src = "/api/placeholder/400/250";
+        }} 
+      />
       <div className="absolute inset-0 bg-gradient-to-t from-indigo-900 to-transparent"></div>
       <div className="absolute bottom-4 left-4">
         <h3 className="text-xl font-bold text-white">{constellation.name}</h3>
@@ -86,7 +94,7 @@ const ConstellationCard = ({ constellation }) => (
       </div>
     </div>
   </div>
-);
+);  
 
 // Prediction Form Component
 const PredictionForm = () => {
@@ -132,7 +140,7 @@ export default function HomePage() {
       season: "Best viewed in Spring",
       description: "Known as the Great Bear, this constellation contains the famous Big Dipper asterism. It's one of the most recognizable patterns in the northern sky.",
       visibility: "Year-round in Northern Hemisphere",
-      image: "/api/placeholder/400/250"
+      image: "/images/image82.webp"
     },
     {
       id: "orion",
@@ -140,7 +148,7 @@ export default function HomePage() {
       season: "Best viewed in Winter",
       description: "The Hunter is one of the most recognizable constellations, with its distinctive three-star belt and bright Betelgeuse and Rigel stars.",
       visibility: "Visible worldwide",
-      image: "/api/placeholder/400/250"
+      image: "/images/image59.webp"
     },
     {
       id: "cassiopeia",
@@ -148,7 +156,7 @@ export default function HomePage() {
       season: "Best viewed in Fall",
       description: "This distinctive W-shaped constellation represents the vain queen from Greek mythology who boasted about her beauty.",
       visibility: "Year-round in Northern Hemisphere",
-      image: "/api/placeholder/400/250"
+      image: "/images/image17.webp"
     }
   ];
   
@@ -254,7 +262,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <Star className="h-6 w-6 text-yellow-300 mr-2" />
-            <span className="text-xl font-bold">Constellation Predict</span>
+            <span className="text-xl font-bold">ConstellaScan</span>
           </div>
 
         </div>
