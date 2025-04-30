@@ -19,23 +19,41 @@ function App() {
 <Route
   path="*"
   element={
-    <h1
+    <div
       style={{
         position: "absolute",
         top: "50%",
         left: "50%",
         transform: "translate(-50%, -50%)",
-        fontSize: "48px",
-        fontFamily: "Arial, sans-serif",
-        color: "#ff4c4c",
-        textAlign: "center"
+        textAlign: "center",
+        fontFamily: "Arial, sans-serif"
       }}
     >
-      404 Page Not Found
-    </h1>
-    <a href="/">Return To Home</a>
+      <h1
+        style={{
+          fontSize: "48px",
+          color: "#ff4c4c",
+          margin: 0
+        }}
+      >
+        404 Page Not Found
+      </h1>
+      <a
+        href="/"
+        style={{
+          fontSize: "18px",
+          color: "#007bff",
+          textDecoration: "none",
+          marginTop: "20px",
+          display: "inline-block"
+        }}
+      >
+        Return To Home
+      </a>
+    </div>
   }
 />
+
 
       </Routes>
     </div>
