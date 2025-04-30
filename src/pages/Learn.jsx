@@ -292,7 +292,7 @@ export default function ConstellationsPage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <Star className="h-6 w-6 text-yellow-300 mr-2" />
-            <span className="text-xl font-bold">Constellation Predict</span>
+            <span className="text-xl font-bold">ConstellaScan</span>
           </div>
           <p className="text-indigo-300 text-sm">
             Explore the wonders of the night sky with our complete constellation guide
