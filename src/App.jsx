@@ -16,7 +16,10 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/prediction" element={<Predict />} />
         <Route path="/learn" element={<Learn />} />
-        <Route path="*" element={<h1>404 Not Found</h1>} />
+        <Route path="*" element={<h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+           font-size: 48px; font-family: Arial, sans-serif; color: #ff4c4c; text-align: center;">
+  404 Page Not Found
+</h1>} />
       </Routes>
     </div>
   )
