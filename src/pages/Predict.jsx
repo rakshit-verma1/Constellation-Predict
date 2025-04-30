@@ -298,7 +298,7 @@ export default function PredictionPage() {
         <div className="max-w-7xl mx-auto flex justify-center items-center">
           <div className="flex items-center">
             <Star className="h-5 w-5 text-yellow-300 mr-2" />
-            <span className="font-bold">CosmoPredict</span>
+            <span className="font-bold">ConstellaScan</span>
           </div>
         </div>
       </footer>
