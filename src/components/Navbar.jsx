@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Star className="h-8 w-8 text-yellow-300" />
-            <span className="ml-2 text-xl font-bold">CosmoPredict</span>
+            <span className="ml-2 text-xl font-bold">ConstellaScan</span>
           </div>
           
           {/* Desktop menu */}
