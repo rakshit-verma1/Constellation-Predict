@@ -33,8 +33,9 @@ function App() {
         style={{
           fontSize: "48px",
           color: "#ff4c4c",
-          margin: 0
-        }}
+          margin: 0,
+                    font-weight:"bolder"
+       }}
       >
         404 Page Not Found
       </h1>
@@ -45,7 +46,8 @@ function App() {
           color: "#007bff",
           textDecoration: "none",
           marginTop: "20px",
-          display: "inline-block"
+          display: "inline-block",
+          font-weight:"bolder"
         }}
       >
         Return To Home
