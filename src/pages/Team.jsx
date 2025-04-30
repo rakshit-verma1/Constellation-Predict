@@ -201,8 +201,7 @@ export default function AboutTeam() {
             <Star className="h-8 w-8 text-yellow-300 ml-2" />
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-indigo-200">
-            Meet the brilliant minds behind CosmoPredict. Our diverse team of astronomers, 
-            developers, and mythology experts work together to bring the wonders of the night sky to you.
+            Meet the team behind CosmoPredict. 
           </p>
         </div>
         
