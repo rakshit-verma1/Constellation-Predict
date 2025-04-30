@@ -33,6 +33,7 @@ function App() {
     >
       404 Page Not Found
     </h1>
+    <a href="/">Return To Home</a>
   }
 />
 
