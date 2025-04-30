@@ -141,7 +141,7 @@ const ConstellationCard = ({ constellation }) => (
     <div className="mb-4 relative h-48 bg-indigo-800 rounded-md overflow-hidden">
       <div className="absolute inset-0 flex items-center justify-center">
         <img 
-          src={`/api/placeholder/300/200`} 
+          src={`/images/${constellation.image}`} 
           alt={constellation.name} 
           className="w-full h-full object-cover opacity-70"
         />
